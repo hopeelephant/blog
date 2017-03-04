@@ -7,7 +7,7 @@ class Home extends React.Component {
         <div className="home-cover">
             <h1>I'M HOPEELEPHANT</h1>
             <p>Web Developer</p>
-            <a　href="https://github.com/hopeelephant">my github</a>
+            <a　href="https://github.com/hopeelephant"><i className="fa fa-github" aria-hidden="true"></i>my github</a>
         </div>
       </div>
     )
