@@ -21,7 +21,7 @@ class Post extends React.Component {
   }
   render () {
     return(
-      <div>
+      <div style ={{width:"100%"}}>
         {this.state.data.length==0 ? "正在加载中" :
         <div dangerouslySetInnerHTML={{__html:marked(this.state.data)}} className = "post-content"></div>
       }

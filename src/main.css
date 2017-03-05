@@ -12,6 +12,40 @@ html,body,#root{
   flex-direction: column;
   height: 100%;
 }
+@media (min-width:750px) {
+  .root{
+    flex-direction: row;
+  }
+}
+.leftnav{
+  background-color: #03a9f4;
+  width: 250px;
+  flex-shrink: 0;
+}
+.leftnav h3{
+  text-align: center;
+  color: #fff;
+  line-height: 2.6;
+  font-size: 28px;
+  border-bottom: 1px solid #fff;
+  letter-spacing: 3px;
+
+}
+
+.leftnav a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  padding-left: 60px;
+  line-height: 2.4
+}
+.leftnav a i{
+  margin-right: 20px;
+}
+.leftnav a:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
 header{
   height: 80px;
   flex-shrink: 0;
