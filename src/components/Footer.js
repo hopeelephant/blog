@@ -5,9 +5,9 @@ class Footer extends React.Component {
     return(
       <footer>
         <Link to ="/" activeStyle={{color:"#fff"}} onlyActiveOnIndex = {true}><i className="fa fa-home" aria-hidden="true"></i><br />home</Link>
-        <Link to ="/blog" activeStyle={{color:"#fff"}}><i className="fa fa-home" aria-hidden="true"></i><br />blog</Link>
-        <Link to ="/work" activeStyle={{color:"#fff"}}><i className="fa fa-home" aria-hidden="true"></i><br />work</Link>
-        <Link to ="/about" activeStyle={{color:"#fff"}}><i className="fa fa-home" aria-hidden="true"></i><br />about</Link>
+        <Link to ="/blog" activeStyle={{color:"#fff"}}><i className="fa fa-th-list" aria-hidden="true"></i><br />blog</Link>
+        <Link to ="/work" activeStyle={{color:"#fff"}}><i className="fa fa-ils" aria-hidden="true"></i><br />work</Link>
+        <Link to ="/about" activeStyle={{color:"#fff"}}><i className="fa fa-language" aria-hidden="true"></i><br />about</Link>
 
       </footer>
     )
