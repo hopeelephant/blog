@@ -9,7 +9,7 @@ class Blog extends React.Component {
     }
   }
   componentDidMount(){
-    axios.get("https://raw.githubusercontent.com/hopeelephant/myblog/master/blogs/blogs.js")
+    axios.get("https://raw.githubusercontent.com/hopeelephant/myblog/master/blogs/blogs.json")
     .then(res =>this.setState({data:res.data}))
   }
   render () {
